@@ -1,0 +1,59 @@
+/* Corp */
+
+body {
+    animation: FadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+/* Animations */
+
+@keyframes FadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes FadeInOnglet{
+    0% {
+        background: #D6EAF8;
+    }
+    100% {
+        background: #98CCFF;
+    }
+}
+
+@keyframes FadeInOngletTexte{
+    0% {
+        background: #D6EAF8; opacity: 0;
+    }
+    100% {
+        background: #98CCFF; opacity: 1;
+    }
+}
+
+/* Tête */
+
+#Tête2 {background: #93b4cd; text-align: center;}
+#Logo {margin: auto}
+#Logo img {width: 70%; display: inline-block;}
+#Accueil a {text-decoration: none; color: #000000; background: #f1f1e8; width: 70%;}
+
+/* Onglets */
+
+#Tête {display: inline-table; width: 100%;}
+#Tête2 {display: table-cell;height: 40px; width: 20%;}
+#tabs {height: 220px;}
+#tabs input, #tabs div{display: none;}
+#tabs label{padding: 0 6px; background: inherit; cursor: pointer;}
+#tabs {display: table-cell; background: #D6EAF8;}
+#tabs_1 ~ [for=tabs_1], #tabs_2 ~ [for=tabs_2], #tabs_3 ~ [for=tabs_3]{background: #f1f1e8}
+#tabs_1:checked ~ [for=tabs_1], #tabs_2:checked ~ [for=tabs_2], #tabs_3:checked ~ [for=tabs_3]{background: #98CCFF; position: relative; top: 2px; animation: FadeInOnglet ease 1s; animation-iteration-count: 1; animation-fill-mode: forwards;}
+#tabs_1:checked ~ [data=tabs_1], #tabs_2:checked ~ [data=tabs_2], #tabs_3:checked ~ [data=tabs_3]{background: #98CCFF; display: block; height: 200px; width: 100%; margin: 0; padding: 0; top: 0; left: 0; animation: FadeInOnglet ease 1s; animation-iteration-count: 1; animation-fill-mode: forwards;}
+
+/* Onglets Animation Texte */
+
+h6{animation: FadeInAnimation ease 1s; animation-iteration-count: 1; animation-fill-mode: forwards;}
