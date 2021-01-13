@@ -1,0 +1,19 @@
+#personnel
+{
+    display: inline-flex;
+}
+
+.cv
+{
+    min-width: 100px;
+    min-height: 100px;
+    margin: 3%;
+    margin-top: 1%;
+    background-color: #6e6cc3;
+    border-radius: 1rem;
+}
+
+.cv_titre
+{
+    
+}

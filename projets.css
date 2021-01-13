@@ -1,0 +1,29 @@
+/* Projets */
+
+#projet
+{
+    width: 100%;
+    display: inline-flex;
+    flex-flow: wrap;
+    margin-top: 3vh;
+    justify-content: space-evenly;
+}
+
+.projet {
+    display: flex;
+    min-height: 5rem;
+    min-width: 15rem;
+    height: 20vh;
+    width: 25%;
+    margin: 1%;
+    background-color: #dee9e9;
+    box-sizing: border-box;
+    border: 3px solid #93b8db;
+    border-radius: 1rem;
+    /* box-shadow: 0 2px 5px 1px #93b8db; */
+    justify-content: space-evenly;
+}
+
+.projet h3 {
+    color: #6e6cc3;
+}

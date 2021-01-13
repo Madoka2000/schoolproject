@@ -2,40 +2,74 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="icon.png" />
     <title>Accueil</title>
-    <link rel="stylesheet" href="Principale.css">
+    <link rel="stylesheet" href="onglet.css">
+    <link rel="stylesheet" href="principale.css">
 </head>
 <body>
 
-<!Onglet mettre header, alt sur image, class texte>
+<!Onglets>
 
     <header class="entete">
 
         <div id="tete">
             <div id="logo"> <img src="logo.jpg" alt="Logo du site"> </div>
-            <div id="accueil" >
+            <div id="accueil">
                 <div id="accueiltexte"> <a href="principale.html"> ACCUEIL</a> </div>
             </div>
         </div>
 
         <nav class="onglets">
-            <div id="tabs">
-                <input id="tabs_1" type="radio" name="tabs_0">
-                <input id="tabs_2" type="radio" name="tabs_0">
-                <input id="tabs_3" type="radio" name="tabs_0">
-                <label for="tabs_1">Présentation</label>
-                <label for="tabs_2">Projet</label>
-                <label for="tabs_3">Personnel</label>
-                <div data="tabs_1"><h6>Petite Présentation</h6><h6>Nom</h6><h6>Yo</h6><h6>Test</h6><p>dd</p><p>jjj</p><p>jjj</p><p>hhh</p></div>
-                <div data="tabs_2"><h6>Mes projets</h6></div>
-                <div data="tabs_3"><h6>Informations personnel</h6></div>
+            <div class="cadre-tabs">
+                <input name="tabs" type="radio" id="tab-1">
+                <label for="tab-1" class="label">Présentation</label>
+                <div class="cadre-demo">
+                    <div class="cadre-demo2"> <p> <h2>Petite Présentation</h2> <p>&nbsp;</p> <a href="presentation.html"> -> </a> <p/> </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at tincidunt risus, nec varius risus. Pellentesque a nisl dolor. Sed cursus, turpis nec tincidunt pharetra, risus lorem vestibulum velit, sit amet dictum lacus urna quis nunc. Maecenas euismod ultricies odio, eget convallis lorem viverra id. In hac habitasse platea dictumst. Suspendisse tincidunt volutpat elit id posuere. Donec maximus tristique viverra. Pellentesque pretium, est at tempor sodales, orci eros sollicitudin mauris, vitae sollicitudin nulla augue a nisi. Proin porta venenatis est vitae interdum. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at tincidunt risus, nec varius risus. Pellentesque a nisl dolor. Sed cursus, turpis nec tincidunt pharetra, risus lorem vestibulum velit, sit amet dictum lacus urna quis nunc. Maecenas euismod ultricies odio, eget convallis lorem viverra id. In hac habitasse platea dictumst. Suspendisse tincidunt volutpat elit id posuere. Donec maximus tristique viverra. Pellentesque pretium, est at tempor sodales, orci eros sollicitudin mauris, vitae sollicitudin nulla augue a nisi. Proin porta venenatis est vitae interdum. </p>
+                </div>
+                <input name="tabs" type="radio" id="tab-2">
+                <label for="tab-2" class="label">Projets</label>
+                <div class="cadre-demo">
+                    <div class="cadre-demo2"> <p> <h2>Mes projets</h2> <p>&nbsp;</p> <a href="projets.html"> -> </a> <p/> </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at tincidunt risus, nec varius risus. Pellentesque a nisl dolor. Sed cursus, turpis nec tincidunt pharetra, risus lorem vestibulum velit, sit amet dictum lacus urna quis nunc. Maecenas euismod ultricies odio, eget convallis lorem viverra id. In hac habitasse platea dictumst. Suspendisse tincidunt volutpat elit id posuere. Donec maximus tristique viverra. Pellentesque pretium, est at tempor sodales, orci eros sollicitudin mauris, vitae sollicitudin nulla augue a nisi. Proin porta venenatis est vitae interdum. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at tincidunt risus, nec varius risus. Pellentesque a nisl dolor. Sed cursus, turpis nec tincidunt pharetra, risus lorem vestibulum velit, sit amet dictum lacus urna quis nunc. Maecenas euismod ultricies odio, eget convallis lorem viverra id. In hac habitasse platea dictumst. Suspendisse tincidunt volutpat elit id posuere. Donec maximus tristique viverra. Pellentesque pretium, est at tempor sodales, orci eros sollicitudin mauris, vitae sollicitudin nulla augue a nisi. Proin porta venenatis est vitae interdum. </p>
+                </div>
+                <input name="tabs" type="radio" id="tab-3">
+                <label for="tab-3" class="label">Personnel</label>
+                <div class="cadre-demo">
+                    <div class="cadre-demo2"> <p> <h2>Informations Personnel</h2> <p>&nbsp;</p> <a href="personnel.html"> -> </a> <p/> </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at tincidunt risus, nec varius risus. Pellentesque a nisl dolor. Sed cursus, turpis nec tincidunt pharetra, risus lorem vestibulum velit, sit amet dictum lacus urna quis nunc. Maecenas euismod ultricies odio, eget convallis lorem viverra id. In hac habitasse platea dictumst. Suspendisse tincidunt volutpat elit id posuere. Donec maximus tristique viverra. Pellentesque pretium, est at tempor sodales, orci eros sollicitudin mauris, vitae sollicitudin nulla augue a nisi. Proin porta venenatis est vitae interdum. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at tincidunt risus, nec varius risus. Pellentesque a nisl dolor. Sed cursus, turpis nec tincidunt pharetra, risus lorem vestibulum velit, sit amet dictum lacus urna quis nunc. Maecenas euismod ultricies odio, eget convallis lorem viverra id. In hac habitasse platea dictumst. Suspendisse tincidunt volutpat elit id posuere. Donec maximus tristique viverra. Pellentesque pretium, est at tempor sodales, orci eros sollicitudin mauris, vitae sollicitudin nulla augue a nisi. Proin porta venenatis est vitae interdum. </p>
+                </div>
             </div>
+
         </nav>
     </header>
 
-<div class="projet">
+<!Onglets Fin>
 
-</div>
+<!Projets>
+    <div id="projet">
+        <div class="projet">
+            <h3>Projet du mm/aa</h3>
+        </div>
+
+        <div class="projet">
+            <h3>Projet du mm/aa</h3>
+        </div>
+
+        <div class="projet">
+            <h3>Projet du mm/aa</h3>
+        </div>
+
+    </div>
+<!Projet Fin>
+
+
 </body>
+
+<script type="text/javascript" src="onglets.js"> </script>
 
 </html>
