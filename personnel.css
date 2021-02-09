@@ -1,19 +1,49 @@
 #personnel
 {
+    width: 100%;
     display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .cv
 {
+    height: auto;
+    width: auto;
     min-width: 100px;
     min-height: 100px;
-    margin: 3%;
     margin-top: 1%;
     background-color: #6e6cc3;
     border-radius: 1rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .cv_titre
 {
-    
+    min-height: 10px;
+    background-color: white;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.cv_liste
+{
+    width: 85%;
+    min-height: 10px;
+    background-color: white;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cv iframe
+{
+    width: 40vw;
+    border-radius: 1rem;
 }
