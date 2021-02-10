@@ -1,10 +1,10 @@
 #personnel
 {
     width: 100%;
+    height: 100%;
     display: inline-flex;
-    align-items: center;
-    flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 0;
 }
 
 .cv
@@ -14,36 +14,80 @@
     min-width: 100px;
     min-height: 100px;
     margin-top: 1%;
-    background-color: #6e6cc3;
-    border-radius: 1rem;
+    background-color: #efeff3;
+    border-radius: 2rem;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    border: 2px solid #f8b258;
+    box-shadow: 0 7px 10px 1px #000000;
+    margin-top: 4rem;
 }
 
 .cv_titre
 {
     min-height: 10px;
     background-color: white;
-    border-radius: 1rem;
+    border-radius: 1px;
     margin-bottom: 1rem;
     margin-top: 1rem;
     margin-right: 1rem;
     margin-left: 1rem;
+    border: 1px solid #425573;
+    box-shadow: 0 2px 2px 1px #8f8f8f;
+}
+
+.cv_titre h2
+{
+    margin: 1rem;
 }
 
 .cv_liste
 {
     width: 85%;
     min-height: 10px;
-    background-color: white;
+    background-color: #eaf0dd;
     border-radius: 1rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    border: 1px solid #425573;
+    box-shadow: 0 2px 2px 1px #8f8f8f;
+    width: 40vw;
+}
+
+.cv_liste h2
+{
+    margin: 1rem;
 }
 
 .cv iframe
 {
     width: 40vw;
-    border-radius: 1rem;
+    border-radius: 2rem;
+}
+
+.gauche
+{
+    width: 49%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 1%;
+}
+
+.droite
+{
+    width: 49%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: 1%;
 }

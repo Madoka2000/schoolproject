@@ -14,6 +14,7 @@ body {
     width: 100%;
     min-width: 480px;
     margin: 0;
+    margin-bottom: 1rem;
     background-color: rgb(26, 26, 26);
     /*animation: FadeInAnimation ease 1s;
     animation-iteration-count: 1;
